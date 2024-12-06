@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.menu-bar {
+    margin: 10px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    padding: 10px;
+}
+
+.container div:hover {
+    background-color: gray;
+    cursor: pointer;
+}

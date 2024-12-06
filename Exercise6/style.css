@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.body {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    height: 650px;
+    background-color: #d4d1d1;
+    padding-left: 20px;
+}
+
+.content {
+    width: 80%;
+    height: 650px;
+    padding-left: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
